@@ -5,7 +5,7 @@
   "main": "node server.js",
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix "
+    "heroku-postbuild": "npm install --prefix "
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
