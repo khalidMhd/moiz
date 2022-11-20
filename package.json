@@ -4,12 +4,9 @@
   "description": " project",
   "main": "node server.js",
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "npm install --prefix "
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
+ 
   "author": "khalid",
   "license": "ISC",
   "dependencies": {
