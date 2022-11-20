@@ -1,4 +1,8 @@
 {
+  "name": "system",
+  "version": "1.0.0",
+  "description": " project",
+  "main": "node server.js",
   "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix "
@@ -6,6 +10,8 @@
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
+  "author": "khalid",
+  "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
